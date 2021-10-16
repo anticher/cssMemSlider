@@ -1,2 +1,0 @@
-# cssMemSlider
-code-jam cssMemSlider
