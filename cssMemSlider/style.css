@@ -144,3 +144,30 @@ body {
     justify-content: space-between;
     overflow: hidden;
 }
+
+@media (pointer:coarse) {
+    .wrapper label:hover:after {
+        border: 0.4vw solid rgb(94, 191, 255);
+    }
+}
+
+@media (max-width: 1024px){
+    .bottom {
+        flex-direction: column-reverse;
+        gap: 1vh;
+    }
+    .text-area {
+        width: 100%;
+        align-self: flex-start;
+    }
+    .wrapper {
+        width: 80vw;
+    }
+    
+    .slider {
+        height: 60vw;
+    }
+    .text {
+        line-height: 5vmin;
+    }
+}
